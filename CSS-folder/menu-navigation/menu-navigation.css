@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+header{
+    padding: 4rem;
+    background: lightblue;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: .8rem;
+}
+
+ul li:last-child {
+    background: black;
+    color: white;
+    padding: .8rem;
+    border-radius: 10px;
+}

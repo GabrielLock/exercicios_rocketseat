@@ -1,0 +1,13 @@
+button{
+    display: flex;
+    align-items: center;
+    line-height: 0;
+    gap: .4rem;
+}
+
+ion-icon{
+    display: flex;
+    align-items: center;
+    line-height: 0;
+    gap: .4rem;
+}
